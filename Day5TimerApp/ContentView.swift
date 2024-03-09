@@ -29,7 +29,7 @@ struct ContentView: View {
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 50, height: 50) // Adjust size as needed
-                        .foregroundColor(.blue)
+                        .foregroundColor(.mint)
                 }
                 .padding()
                 .background(timerRunning ? Color.gray : Color.white) // Changes background color based on state
@@ -42,7 +42,7 @@ struct ContentView: View {
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 50, height: 50) // Adjust size as needed
-                        .foregroundColor(.blue)
+                        .foregroundColor(.mint)
                 }
                 .padding()
                 .background(!timerRunning ? Color.gray : Color.white) // Changes background color based on state
@@ -55,7 +55,7 @@ struct ContentView: View {
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 50, height: 50) // Adjust size as needed
-                        .foregroundColor(.blue)
+                        .foregroundColor(.mint)
                 }
                 .padding()
                 .background(Color.white) // Default background color
